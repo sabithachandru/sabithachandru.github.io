@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sabitha Chandru | Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Sabitha Chandru, B.Sc. Information Technology graduate and aspiring Software Developer skilled in Python, Flask, SQL and web development. Open to relocate to Bangalore and Dubai.">
+<style>
+:root{
+  --bg:#0e161d;
+  --panel:#142029;
+  --line:#22323d;
+  --text:#e9eff3;
+  --muted:#93a4b0;
+  --accent:#4fd1c5;
+  --accent-dark:#0e161d;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  line-height:1.65;font-size:16px;
+}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+
+nav{
+  position:sticky;top:0;z-index:10;background:rgba(14,22,29,.96);
+  border-bottom:1px solid var(--line);
+}
+nav .wrap{display:flex;gap:22px;overflow-x:auto;white-space:nowrap;padding-top:14px;padding-bottom:14px}
+nav a{color:var(--muted);font-size:15px}
+nav a:hover{color:var(--text);text-decoration:none}
+
+header.hero{padding:72px 0 64px}
+.badge{
+  display:inline-block;background:#12332f;color:var(--accent);
+  padding:6px 14px;border-radius:999px;font-size:14px;font-weight:600;margin-bottom:22px;
+}
+h1{font-size:clamp(36px,7vw,56px);line-height:1.1;font-weight:700;letter-spacing:-.5px}
+.role{margin-top:14px;font-size:clamp(18px,3vw,22px);color:var(--text)}
+.edu-line{color:var(--muted);font-size:clamp(16px,2.6vw,19px)}
+.lead{margin-top:24px;max-width:60ch;font-size:18px}
+.actions{margin-top:30px;display:flex;flex-wrap:wrap;gap:12px}
+.btn{
+  display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;font-size:16px;
+  border:1.5px solid var(--accent);color:var(--accent);
+}
+.btn.primary{background:var(--accent);color:var(--accent-dark)}
+.btn:hover{text-decoration:none;opacity:.88}
+
+section{padding:44px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;margin-bottom:22px;font-weight:700}
+p+p{margin-top:14px}
+
+.skills{display:grid;grid-template-columns:190px 1fr;gap:12px 22px}
+.skills dt{color:var(--accent);font-weight:600}
+.skills dd{color:var(--text)}
+
+.item{margin-bottom:26px}
+.item:last-child{margin-bottom:0}
+.item-head{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:baseline}
+.item h3{font-size:18px;font-weight:600}
+.when{color:var(--muted);font-size:15px;font-style:italic}
+.sub{color:var(--muted);font-size:15px;margin-top:2px}
+.item ul{margin-top:10px;padding-left:20px}
+.item li{margin-bottom:6px}
+.links{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px 22px}
+
+.certs{list-style:none}
+.certs li{
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding:12px 0;border-bottom:1px solid var(--line);
+}
+.certs li:last-child{border-bottom:none}
+.certs .by{color:var(--muted);font-size:15px}
+
+.contact-list{list-style:none}
+.contact-list li{margin-bottom:10px}
+.contact-list span{display:inline-block;width:90px;color:var(--muted)}
+
+footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+
+@media (max-width:620px){
+  .skills{grid-template-columns:1fr;gap:2px}
+  .skills dd{margin-bottom:12px}
+  header.hero{padding:48px 0 44px}
+}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge">Open to work</span>
+    <h1>Sabitha Chandru</h1>
+    <p class="role">Aspiring Software Developer</p>
+    <p class="edu-line">B.Sc. Information Technology (2026)</p>
+    <p class="lead">I build projects with Python, Flask, SQL and web technologies. I am looking for an entry-level Software Developer role and I am open to relocating to Bangalore and Dubai.</p>
+    <div class="actions">
+      <a class="btn primary" href="Sabitha_Chandru_Resume.pdf" download>Download resume</a>
+      <a class="btn" href="#contact">Get in touch</a>
+      <a class="btn" href="#projects">View project</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About me</h2>
+    <p>I am a B.Sc. Information Technology graduate from Thiruvarur, Tamil Nadu, completing my degree in 2026 with an 8.4 CGPA.</p>
+    <p>Through a Full Stack Web Development internship at 8 Queens, Chennai, I built responsive front-end pages. My final year project is a machine learning based web application that detects intrusions in system log files, built with Python, Flask and MySQL.</p>
+    <p>I learn quickly, enjoy building things that work end to end, and I am ready to grow in a real-world team.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Programming</dt><dd>Python, C, C++, JavaScript</dd>
+      <dt>Web Technologies</dt><dd>HTML, CSS, Flask, Bootstrap, Tailwind CSS, Responsive Design</dd>
+      <dt>Machine Learning</dt><dd>scikit-learn (TF-IDF, Logistic Regression)</dd>
+      <dt>Database</dt><dd>SQL, MySQL, MongoDB (Basics)</dd>
+      <dt>Data &amp; Analytics</dt><dd>Power BI, Microsoft Excel, Data Analytics, Data Cleaning, Data Visualization</dd>
+      <dt>Tools &amp; Deployment</dt><dd>Git, GitHub, Render, Agile Methodology (Basics)</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <div class="item">
+      <div class="item-head">
+        <h3>Full Stack Web Development Intern</h3>
+        <span class="when">May 2024 - Jun 2024</span>
+      </div>
+      <p class="sub">8 Queens, Chennai</p>
+      <ul>
+        <li>Built a responsive portfolio website using HTML, CSS, JavaScript and Bootstrap.</li>
+        <li>Developed a login page and landing pages with clean, user-friendly UI across devices.</li>
+        <li>Gained practical exposure to full stack development concepts and the software development workflow.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <div class="item">
+      <div class="item-head">
+        <h3>Smart Log Monitoring and Intrusion Detection System</h3>
+        <span class="when">Final year project</span>
+      </div>
+      <p class="sub">Python, Flask, scikit-learn, MySQL, HTML, Tailwind CSS, JavaScript</p>
+      <ul>
+        <li>Built a web application that classifies uploaded system log files as Normal or Intrusion using TF-IDF and Logistic Regression.</li>
+        <li>Implemented user signup and login with password hashing, log file upload, and results pages that store predictions in a MySQL database.</li>
+        <li>Deployed the application on Render with a cloud MySQL database (TiDB Cloud).</li>
+      </ul>
+      <div class="links">
+        <a href="https://smart-log-ids.onrender.com" target="_blank" rel="noopener">Live demo (sign up to try)</a>
+        <a href="https://github.com/sabithachandru/smart-log-ids-" target="_blank" rel="noopener">Source code on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="wrap">
+    <h2>Certifications</h2>
+    <ul class="certs">
+      <li><span>Data Analytics <span class="by">&middot; Besant Technologies</span></span><span class="when">Aug 2025</span></li>
+      <li><span>MongoDB Basics for Students <span class="by">&middot; MongoDB</span></span><span class="when">Jul 2025</span></li>
+      <li><span>Master AI Tools to Boost Your Skills (Webinar) <span class="by">&middot; Logirtha Technologies</span></span><span class="when">Jul 2025</span></li>
+      <li><span>Introduction to Agile Methodology <span class="by">&middot; Infosys Springboard</span></span><span class="when">Oct 2024</span></li>
+      <li><span>Ethical Considerations for Generative AI <span class="by">&middot; IBM SkillsBuild</span></span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Education</h2>
+    <div class="item">
+      <div class="item-head">
+        <h3>Bachelor of Science in Information Technology</h3>
+        <span class="when">2023 - 2026</span>
+      </div>
+      <p class="sub">Swami Dayananda College of Arts and Science &middot; CGPA 8.4</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>I am open to entry-level Software Developer roles in Bangalore and Dubai. Write to me and I will reply soon.</p>
+    <ul class="contact-list" style="margin-top:18px">
+      <li><span>Email</span><a href="mailto:sabithachandru007@gmail.com">sabithachandru007@gmail.com</a></li>
+      <li><span>LinkedIn</span><a href="https://linkedin.com/in/sabitha-chandru" target="_blank" rel="noopener">linkedin.com/in/sabitha-chandru</a></li>
+      <li><span>GitHub</span><a href="https://github.com/sabithachandru" target="_blank" rel="noopener">github.com/sabithachandru</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">&copy; 2026 Sabitha Chandru</div>
+</footer>
+
+</body>
+</html>
